@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textviewLoto"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ứng dụng game lôtô"
+        android:textAllCaps="true"
+        android:textColor="#f20"
+        android:gravity="center"
+        android:textSize="25sp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:id="@+id/textviewMin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MIN"
+            android:layout_marginTop="8dp"
+            android:textSize="20sp"/>
+        <EditText
+            android:inputType="number"
+            android:id="@+id/edittextMin"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:id="@+id/textviewMax"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MAX"
+            android:layout_marginTop="8dp"
+            android:textSize="20sp"/>
+        <EditText
+            android:inputType="number"
+            android:id="@+id/edittexMax"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/buttonAddnumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ADD NUMBER"/>
+        <Button
+            android:id="@+id/buttonRandom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="RANDOM"/>
+        <Button
+            android:id="@+id/buttonChoilai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="CHƠI LẠI"/>
+
+    </LinearLayout>
+        <TextView
+            android:id="@+id/textviewResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="10"
+            android:textSize="30sp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:textColor="#f20"/>
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
